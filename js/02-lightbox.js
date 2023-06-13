@@ -11,7 +11,6 @@ const createGalleryFunc = galleryItems.map(
     </a>
  </li>`
 );
-galleryEl.insertAdjacentHTML("beforeend", createGalleryFunc.join(""));
 galleryEl.innerHTML = createGalleryFunc;
 
 var lightbox = new SimpleLightbox(".gallery a", {
